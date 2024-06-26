@@ -1,0 +1,62 @@
+.task-list {
+    flex: 1;
+    padding: 20px;
+    background: #ffffff;
+  }
+  
+  .task-list h2 {
+    margin-top: 0;
+  }
+  
+  .task-list .add-task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1px;
+  }
+  
+  .task-list .add-button {
+    font-size: medium;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    width: 80%;
+    text-align: left;
+  }
+  
+  .task-list .add-button:focus {
+    outline: none; 
+  }
+  
+  .task-list .divider {
+    flex: 1;
+    border-top: 1px solid #ccc; 
+    margin: 0; 
+    padding: 0;
+  }
+  
+  .task-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .task-list li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .task-list li input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .task-list li span {
+    cursor: pointer;
+    text-align: left;
+  }
+
+  .task-list-items li .arrow-icon {
+    margin-left: auto;
+  }
+  
