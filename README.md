@@ -1,3 +1,3 @@
 # Infomaticae
 reactapp
-TodoList 
+Todo
